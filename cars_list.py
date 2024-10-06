@@ -1,0 +1,13 @@
+cars = ['bmw', 'audi', 'toyota', 'subaru']
+print(f"Here is the original list: {cars}")
+print(f"\nHere is the sorted list: {sorted(cars)}")
+print(f"\nHere is the original list again: {cars}")
+cars.sort()
+print(f"\nHere is the sorted and immutable list {cars}")
+cars.sort(reverse=True)
+print(f"\nHere is the sorted and immutable list {cars}")
+cars.reverse()
+print(f"\nHere is the reverse list: {cars}")
+cars.reverse()
+print(f"\nHere is the original list again: {cars}")
+print(len(cars))
